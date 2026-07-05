@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    gap: 5px;
+    background-color: rgb(206, 255, 235);
+}
+.calender{
+    background-color: yellow;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    
+}
+.day{
+    background-color:blue;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
